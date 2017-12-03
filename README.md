@@ -23,7 +23,7 @@ Access home servers any time any where.
 
 Because I don't have a *hackable* router...
 
-The most efficient way is to use [ppp if-up][1] of course.
+The most efficient way is to use [ppp ip-up][1] of course.
 
 If you have a hackable router (like with openwrt installed) configured to
 obtain public IP via PPPOE, simply call CloudFlare API to update the ip
