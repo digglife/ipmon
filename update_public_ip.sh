@@ -4,11 +4,11 @@ script_path=$(dirname $0)
 config="${script_path}/config"
 ip_file="${script_path}/public_ip"
 
-source "$config"
+source "${config}"
 source "${script_path}/functions.sh"
 
 if [ -z $domain ] || [ -z $auth_email ] || [ -z $auth_key ];then
-    echo "Missing configuration. Refer to ${config}"
+    echo "Missing configuration. Refer to ${config}."
     exit 1
 fi
 
