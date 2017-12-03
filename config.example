@@ -1,0 +1,9 @@
+
+cloud_flare_api_url='https://api.cloudflare.com/client/v4'
+# your registered email address on cloudflare
+auth_email='i@digglife.net'
+# your api key from https://www.cloudflare.com/a/profile
+auth_key='4472c1317b92624105fdbad487f1d5154eb14'
+# the (sub)domain name you want to bind with your public ip.
+domain='digglife.net'
+
